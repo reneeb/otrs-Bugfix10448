@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.33) -->
+    <Name>Bugfix10448</Name>
+    <Version>5.0.1</Version>
+    <Framework>5.0.x</Framework>
+    <Vendor>Perl-Services.de</Vendor>
+    <URL>http://www.perl-services.de</URL>
+    <Description Lang="de">Bugfix für http://bugs.otrs.org/show_bug.cgi?id=10448</Description>
+    <Description Lang="en">Bugfix for http://bugs.otrs.org/show_bug.cgi?id=10448</Description>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Filelist>
+        <File Permission="644" Location="Kernel/System/DynamicField/Driver/Checkbox.pm" />
+        <File Permission="644" Location="doc/Bugfix10448.json" />
+    </Filelist>
+</otrs_package>
